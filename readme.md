@@ -8,7 +8,7 @@ var posthtml = require('posthtml'),
     html = fs.readFileSync('path/to/html', 'utf-8').toString();
 
 posthtml()
-    .use(require('posthtml-style-to-file')({ path: ''./dist/style.css''}))
+    .use(require('posthtml-style-to-file')({ path: './dist/style.css'}))
     .process(html)
     .then(function(result) {
         console.log(result.html);
@@ -42,3 +42,8 @@ html{ margin: 0 }
 body{background: #fff;}
 div.button{border: 1px solid #000;}
 ```
+
+## Options 
+
+#### `path`
+Dist path

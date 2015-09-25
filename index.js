@@ -20,7 +20,7 @@ module.exports = function(options) {
 
             buf += '\n' +
                 node.tag +
-                (node.attrs.id || '') +
+                (node.attrs.id? ('#' + node.attrs.id ): '') +
                 cls + '{' + node.attrs.style + '}';
             return node;
         });

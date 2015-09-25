@@ -1,0 +1,41 @@
+{
+  "name": "posthtml-style-to-file",
+  "version": "0.1.0",
+  "description": "posthtml style-to-file plugin",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "jscs": "^1.13.1",
+    "jshint": "^2.8.0",
+    "posthtml": "^0.3.0",
+    "mocha": "^2.2.5"
+  },
+  "scripts": {
+    "test": "npm run lint && mocha",
+    "lint": "jshint . && jscs . -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/posthtml/posthtml-style-to-file.git"
+  },
+  "keywords": [
+    "html",
+    "xml",
+    "css",
+    "file",
+    "convert",
+    "style-to-file",
+    "postproccessor",
+    "parser",
+    "transform",
+    "manipulation"
+  ],
+  "author": "Ivan Voischev <voischev.ivan@ya.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/posthtml/posthtml-style-to-file/issues"
+  },
+  "homepage": "https://github.com/posthtml/posthtml-style-to-file#readme"
+}

@@ -1,7 +1,7 @@
 var fs = require('fs');
 var path = require('path');
 
-module.exports = function(options) {
+module.exports = function posthtmlStyleToFile(options) {
     options = options || { path: './result.css' };
 
     var buf = '';

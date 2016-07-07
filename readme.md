@@ -13,7 +13,7 @@
 <h2 align="center">Install</h2>
 
 ```bash
-npm i -D posthtml-postcss
+npm i -D posthtml-style-to-file
 ```
 
 <h2 align="center">Usage</h2>

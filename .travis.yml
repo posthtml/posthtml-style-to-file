@@ -1,0 +1,9 @@
+sudo: false
+language: node_js
+node_js:
+  - "node"
+  - "lts/*"
+  - "8"
+
+after_script:
+  - npm run coverage

@@ -1,19 +1,21 @@
 {
   "name": "posthtml-style-to-file",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "posthtml style-to-file plugin",
   "main": "index.js",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "chai": "^3.2.0",
-    "jscs": "^1.13.1",
+    "chai": "^4.2.0",
+    "coveralls": "^3.0.4",
+    "jscs": "^3.0.7",
     "jshint": "^2.8.0",
-    "posthtml": "^0.3.0",
-    "mocha": "^2.2.5"
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1",
+    "posthtml": "^0.11.4"
   },
   "scripts": {
-    "test": "npm run lint && mocha",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "test": "npm run lint && nyc mocha",
     "lint": "jshint . && jscs . -v"
   },
   "repository": {

@@ -18,9 +18,21 @@ npm i -D posthtml-style-to-file
 
 <h2 align="center">Usage</h2>
 
-### Options
+## Options
 
-__`path`__
+#### `path`
+
+Type: `String`  
+Default: `./result.css`  
+Description: *Destination path, where the extracted CSS is saved to.*  
+
+#### `removeStyle`
+
+Type: `String`  
+Default: ``  
+Description: *Removes the specified value `attrs` | `tag` | `all`*  
+
+__`removeStyle`__
 
 Destination path, where the extracted CSS is saved to.
 

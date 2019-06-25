@@ -10,7 +10,12 @@ module.exports = function posthtmlStyleToFile(options) {
 
         tree.match({ tag: 'style' }, function(node) {
             buf += node.content[0].trim() || '';
-            return node;
+
+            if (options.removeStyle === 'tag' || options.removeStyle === 'all') {
+                return '';
+            }
+
+            return  node;
         });
 
         tree.match({ attrs: { style: true }}, function(node) {
@@ -22,6 +27,11 @@ module.exports = function posthtmlStyleToFile(options) {
                 node.tag +
                 (node.attrs.id? ('#' + node.attrs.id ): '') +
                 cls + '{' + node.attrs.style + '}';
+
+            if (options.removeStyle === 'attrs' || options.removeStyle === 'all') {
+                delete node.attrs.style;
+            }
+
             return node;
         });
 

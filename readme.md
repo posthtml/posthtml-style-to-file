@@ -77,30 +77,6 @@ body{ background: #fff; }
 div.button{ border: 1px solid #000; }
 ```
 
-<h2 align="center">LICENSE</h2>
-
-> MIT License (MIT)
-
-> Copyright (c) PostHTML Ivan Voischev <voischev.ivan@ya.ru>
-
-> Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-> The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
 [npm]: https://img.shields.io/npm/v/posthtml-style-to-file.svg
 [npm-url]: https://npmjs.com/package/posthtml-style-to-file
 
@@ -113,5 +89,5 @@ SOFTWARE.
 [travis]: http://img.shields.io/travis/posthtml/posthtml-style-to-file.svg
 [travis-url]: https://travis-ci.org/posthtml/posthtml-style-to-file
 
-[cover]: https://coveralls.io/repos/github/posthtml/posthtml-style-to-file/badge.svg?branch=master
-[cover-url]: https://coveralls.io/github/posthtml/posthtml-style-to-file?branch=master
+[cover]: https://coveralls.io/repos/github/posthtml/posthtml-style-to-file/badge.svg
+[cover-url]: https://coveralls.io/github/posthtml/posthtml-style-to-file
